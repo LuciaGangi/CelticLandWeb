@@ -1,0 +1,164 @@
+h1 {
+	color: #ff0000;
+}
+.contact-form__h2 {
+	color: #ffff00;
+	font-size: 100px;
+	width: 100%;
+	margin: auto;
+	text-align: center;
+	box-shadow: 8px 8px 15px 0 #474346;
+	text-shadow: 2px 2px 7px #000000;
+}
+h3 {
+	color: #ffff00;
+	background-color: #e876ce;
+	display: inline-block;
+	padding: 10px;
+	border-radius: 20px;
+	border: solid #000000;
+	box-shadow: 8px 8px 15px 0 #474346;
+	text-shadow: 2px 2px 7px #000000;
+	transform: rotate(25deg);
+}
+h4 {
+	color: #00ff00;
+}
+h5 {
+	color: #0000ff;
+}
+h6 {
+	color: #660066;
+}
+p {
+	color: #ff00ff;
+}
+
+
+* {
+	font-family: 'Redressed', cursive;
+	font-size: 50px;
+}
+.cont {
+	margin: auto;
+	margin-top: 50px;
+	border: 4px solid #133003;
+	background: #79c251;
+	text-shadow: 2px 2px 7px #000000;
+	width: 50%;
+	padding: 20px;
+	text-align: justify;
+}
+.cont img {
+	float: right;
+	width: 300px;
+	margin-left: 18px;
+}
+form {
+	margin: auto;
+	display: block;
+	background-color: #555;
+	padding: 100px;
+	width: 50%;
+}
+input {
+	padding: 4px;
+	width: 100%;
+}
+input::placeholder {
+	color: #b7bab5;
+}
+*::selection {
+	background-color: #e88bdf;
+}
+
+.caja img {
+	width: 100%;
+	object-fit: contain;
+}
+body {
+	background-color: #8fc72e;
+}
+.caja2 {
+	width: 100%;
+	margin: auto;
+}
+.caja3 {
+	width: 100%;
+	margin: auto;
+}
+
+.enlaces {
+	text-align: center;	
+}
+.nav__responsive-ul {
+	display: none;
+}
+.nav {
+	background-color: #3f6105;
+}
+.nav__li {
+	display: inline-block;
+	padding: 12px;
+	color: #fff70a;
+	text-shadow: 2px 2px 7px #000000;
+}
+.nav__li a {
+	color: #fff70a;
+	text-decoration: none;
+}
+.nav__li i {
+	box-sizing: border-box;
+	text-align: right;
+	margin-right: 20px;
+}
+.nav__li:hover a {
+	color: #3381bd;
+}
+.nav__li:hover {
+	color: #3381bd;
+}
+
+@media only screen and (max-width: 500px){
+	.nav__ul{
+		display: none;
+}
+	.nav__responsive-ul {
+	display: block;
+	position: absolute;
+	width: 100%;
+	background-color: #3f6105;
+	height: 100%;
+	margin-top: 37px;
+	list-style:none;
+}
+.nav__responsive-button-container {
+	position: absolute;
+	width: 100%;
+	font-size: 25px;
+	background-color: #3381bd;
+}
+.nav__responsive-button {
+	padding: 6px 20px;
+}
+
+.nav {
+	height: 37px;
+	width: 100%;
+	background-color: #3381bd;
+}
+.nav__responsive-li {
+	width: 100%;
+	padding: 9px 20px;
+}
+.nav__responsive-li i {
+	box-sizing: border-box;
+	text-align: center;
+	margin-right: 5px;
+	width: 30px;
+	color: #bac4cc;
+}
+.nav__responsive-li a {
+	color: #bac4cc;
+	text-decoration: none;
+}
